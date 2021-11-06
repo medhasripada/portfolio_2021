@@ -66,3 +66,20 @@ h2{
     font-size: 50px;
     text-align:center;
 }
+.gallery{
+    display:flex;
+    flex-direction:row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: stretch;
+
+}
+
+.gallery > img {
+    border: 10px solid #50C7C7;
+    margin-top:10px;
+    margin-bottom:10px;
+    margin-left:10px;
+    margin-right:10px;
+    width: 300px;
+}
