@@ -71,3 +71,18 @@ header {
     bottom:0px;
     
 }
+
+@media screen and (min-width: 800px){
+    nav{
+      padding: 20px 0;
+      text-align: right
+    }
+ 
+   body > header{
+     flex-direction: row;
+     justify-content: space-between;
+     align-content: flex-start;
+     left:0;
+     right:0;
+            
+    }
